@@ -1,12 +1,12 @@
 function insert(num) {
-    var myString = document.forms.textview.value;
+    var myString = document.form.textview.value;
     var lastChar = myString[myString.length - 1];
     if (myString.length < 30) {
         if (!isNaN(lastChar) || lastChar == null || !isNaN(num)) {
-            document.forms.textview.value = myString + num;
+            document.form.textview.value = myString + num;
         }
         else if (num != lastChar) {
-            document.forms.textview.value = myString.replace(lastChar, num);
+            document.form.textview.value = myString.replace(lastChar, num);
         }
     }
 }
