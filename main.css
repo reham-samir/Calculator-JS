@@ -41,20 +41,20 @@ form {
 }
 .button {
     width: 100%;
-    height: 400px;
+    height: 40px;
     outline: none;
 }
-.button .top-button {
+.button.top-button {
     background-color: #6d4b7e;
     border-color: #d6d6d6;
     color: #fff;
 }
-.button .equal {
+.button.equal {
     background-color: #ad3535;
     color: #fff;
     font-size: 22px;
 }
-.button .operator {
+.button.operator {
     background: #20b2aa;
     border-color: #d6d6d6;
     color: #fff;
